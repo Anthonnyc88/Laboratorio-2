@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script>
+        fetch('http://cosevi.cloudapi.junar.com/api/v2/datastreams/CLASE-Y-TIPOS-DE-ACCID/data.json/?auth_key=b0191f25ec21bf892241ee767b321998c22df14d&limit=10000')
+        .then((respuesta) => {
+            return respuesta.json();
+        } ).then((respuesta) => {
+            document.getElementById('nombre').value = respuesta.respuesta;
+            document.getElementById('apellido').value = respuesta.lastName;
+        })
+    </script>
+</head>
+
+<body>
+    <div id="informacion">
+        <input type="text" id="Provincia" value="Cargando..."/>
+        <input type="text" id="apellido" value="Cargando..."/>
+    </div>
+</body>
+</html>
