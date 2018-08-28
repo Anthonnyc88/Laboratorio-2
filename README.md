@@ -1,4 +1,4 @@
 # Laboratorio-2
-Estudiantes
-Anthonny Calderón Espinoza
-Gabriel Quesada
+#Estudiantes
+#Anthonny Calderón Espinoza
+#Gabriel Quesada
